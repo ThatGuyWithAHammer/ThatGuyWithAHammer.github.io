@@ -136,8 +136,19 @@ nav ul {
   color: var(--primary-color);
 }
 
-.bio h1 {
+.bio h2 {
   margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.bioPic {
+  width: 10rem;
+  height: 10rem;
+  background-image: url("/assets/imgs/bioAvatar.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  margin: 0 auto;
 }
 
 .bio p {
@@ -176,4 +187,17 @@ nav ul {
 
 .skills h2 {
   padding-bottom: 1.5rem;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  text-align: center;
+  height: 3rem;
+  font-family: "Jost", sans-serif;
+  font-size: 2.1rem;
 }

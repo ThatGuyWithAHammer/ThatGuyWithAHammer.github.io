@@ -240,6 +240,14 @@ nav h1 {
   margin: 0.5rem;
 }
 
+.scrollUp {
+  position: fixed;
+  right: 0.5%;
+  bottom: 5%;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
 .footer {
   position: fixed;
   left: 0;

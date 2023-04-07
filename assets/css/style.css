@@ -91,6 +91,7 @@ nav {
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.226);
   transition: var(--transition);
+  height: 4rem;
 }
 
 nav a:hover {
@@ -271,15 +272,16 @@ nav h1 {
 @media screen and (max-width: 768px) {
   nav {
     padding: 1.5rem 1rem;
+    height: 4.2rem;
   }
 
   nav ul {
     position: fixed;
     background-color: var(--bg-color);
     flex-direction: column;
-    top: 86px;
-    left: 10%;
-    width: 80%;
+    top: 6.6%;
+    left: 60%;
+    width: 40%;
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;

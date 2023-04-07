@@ -162,6 +162,8 @@ nav h1 {
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  font-size: 1.05rem;
+  text-align: justify;
 }
 
 .skills {
